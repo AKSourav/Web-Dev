@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Mochiy Pop P One', sans-serif, ;
+        }
+
+        .container {
+            margin: 4px auto;
+            border: 8px solid blueviolet;
+            padding: 10px 10px;
+            width: 1000px;
+            background-color: #1000ff45
+        }
+
+        .item {
+            border: 2px solid #1f536c;
+            margin: 4px 4px;
+            padding: 7px 7px;
+            background-color: rgb(186 151 242);
+        }
+
+        #fruit {
+            float: left;
+            width: 49%;
+        }
+
+        #computer {
+            /*float:right; */
+            float: left;
+            width: 49%;
+        }
+
+        #stationary {
+            /* clear: both; */
+            clear: left;
+            width: 100%;
+        }
+
+        #glasses {
+            width: 100%;
+        }
+        p, h3 {
+            /* text-align: right;
+            text-align: left;
+            text-align: justify; */
+            text-align: center;
+        }
+        h1{
+            /* margin: 23px auto;
+            width: 455px; */
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1> Welcome to my store </h1>
+        <div id="fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam laborum
+                voluptatibus tempore adipisci repellat pariatur non fugit, quisquam quasi, corrupti earum officia
+                obcaecati molestias saepe doloribus aperiam perferendis quae dolorum laudantium iusto minima impedit
+                ullam temporibus odio. Facilis molestias facere, architecto culpa velit sit nulla accusantium illo
+                dolorum provident impedit sed eius possimus quidem doloribus modi amet blanditiis! Odit, ipsum!</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computers</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                laborum voluptatibus tempore adipisci repellat pariatur non fugit, quisquam quasi, corrupti earum
+                officia obcaecati molestias saepe doloribus aperiam perferendis quae dolorum laudantium iusto minima
+                impedit ullam temporibus odio. Facilis molestias facere, architecto culpa velit sit nulla accusantium
+                illo dolorum provident impedit sed eius possimus quidem doloribus modi amet blanditiis! Odit, ipsum!</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                laborum voluptatibus tempore adipisci repellat pariatur non fugit, quisquam quasi, corrupti earum
+                officia obcaecati molestias saepe doloribus aperiam perferendis quae dolorum laudantium iusto minima
+                impedit ullam temporibus odio. Facilis molestias facere, architecto culpa velit sit nulla accusantium
+                illo dolorum provident impedit sed eius possimus quidem doloribus modi amet blanditiis! Odit, ipsum!</p>
+        </div>
+        <div id="glasses" class="item">
+            <h3>Glasses</h3>
+            <p id="glassespara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam laborum
+                voluptatibus tempore adipisci repellat pariatur non fugit, quisquam quasi, corrupti earum officia
+                obcaecati molestias saepe doloribus aperiam perferendis quae dolorum laudantium iusto minima impedit
+                ullam temporibus odio. Facilis molestias facere, architecto culpa velit sit nulla accusantium illo
+                dolorum provident impedit sed eius possimus quidem doloribus modi amet blanditiis! Odit, ipsum!</p>
+        </div>
+    </div>
+</body>
+
+</html>

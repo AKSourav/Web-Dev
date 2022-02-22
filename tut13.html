@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tutorial</title>
+    <!-- Precendence of CSS: inlineCSS>(internalCSS=externalCSS) -->
+    <!-- For internal and external CSS which ever is declared most recently takes the effect -->
+    <!-- this is internal CSS -->
+    <style>
+        p{
+            color:rgb(rgb(14, 61, 190), green, blue);
+            background-color: seagreen;
+        }
+    </style>
+    <!-- this is external CSS -->
+    <link rel="stylesheet" href="tut13.css">
+</head>
+<body>
+    <h3>This is CSS Tutorial</h3>
+    <p style="color:red; background-color: yellow;">This is Inline CSS this take precendence over both internal and external CSS</p>
+    <p>This is Experiment for Internal and external CSS</p>
+</body>
+</html>
