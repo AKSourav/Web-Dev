@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes and Animations</title>
+    <style>
+        .container {
+            background-color: greenyellow;
+        }
+
+        .box {
+            background-color: green;
+            width: 250px;
+            height: 250px;
+            border: 2px solid red;
+            position: relative;
+
+            /* ease-in:starts slowly ,end quickly; ease-out:starts quickly, end slowly; ease-in-out:starts slowly , end slowly; */
+            /* animation-name: anupam1;
+            animation-duration: 0.8s;
+            animation-timing-function: ease-out;
+            animation-delay: 3s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards; */
+
+            /* These properties can be set using this shorthand */
+            /* animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-fill-mode; */
+            animation: anupam2 5s ease-out 1s 12 backwards;
+        }
+
+        @keyframes anupam1 {
+            from {
+                width: 250px;
+            }
+
+            to {
+                width: 110%;
+            }
+        }
+
+        @keyframes anupam2
+        {
+            0%
+            {
+                top: 0px;
+                left: 0px;
+            }
+            25%
+            {
+                top: 250px;
+                left: 0px;
+            }
+            75%{
+                top: 250px;
+                left: 250px;
+            }
+            100%{
+                top: 0px;
+                left: 250px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>This is a box</h1>
+        </div>
+    </div>
+</body>
+
+</html>
