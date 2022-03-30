@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Meal Delivery</title>
+    <link rel="stylesheet" href="./CSS/Desktop.css">
+    <link rel="stylesheet" media="only screen and (max-width:876px)" href="./CSS/Phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="./Img/logo.png" alt="logo">
+        </div>
+        <div id="nav-element-container">
+            <ul>
+                <li class="nav-element"><a href="#Home-section">Home</a></li>
+                <li class="nav-element"><a href="#Services-section">Services</a></li>
+                <li class="nav-element"><a href="#Client-section">Our Client</a></li>
+                <li class="nav-element"><a href="#ContactUs-section">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+<section class="buddy">
+   <section id="home-section">
+       <h1 class="h-primary-center">Welcome to MyOnlineMeal.com </h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem consequuntur vero, soluta earum obcaecati dignissimos maxime perferendis mollitia quasi velit.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim consequatur inventore dolor quae alias culpa accusantium similique blanditiis ipsum minus.</p>
+        <button class="btn"><a href="#Services-section" style="text-decoration: none;">Order Now</a></button>
+   </section> 
+   <section id="Services-section">
+       <h1 class="h-primary-center">Our Services</h1>
+       <div class="services-container">
+            <div class="services" id="services-1">
+                 <img src="./Img/foodcatering.jpg" alt="foodcatering.jpg">
+               <h2 class="h-secondary-center">Food Catering</h2>
+               <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ipsa.</p>
+            </div>
+            <div class="services" id="services-2">
+                <img src="./Img/bulkordering.jpg" alt="bulkordering.jpg">
+               <h2 class="h-secondary-center">Bulk Ordering</h2>
+               <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ipsa.</p>
+            </div>
+            <div class="services" id="services-3">
+                <img src="./Img/foodordering.png" alt="foodordering.png">
+               <h2 class="h-secondary-center">Food Ordering</h2>
+               <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ipsa.</p>
+            </div>
+        </div>
+    </section>
+   <section id="Client-section">
+       <h1 class="h-primary-center">Our Clients</h1>
+       <div class="client-container">
+           <img src="./Img/clients/apple.png" alt="apple.png" class="clients">
+           <img src="./Img/clients/android.png" alt="android.png" class="clients">
+           <img src="./Img/clients/microsoft.png" alt="microsoft.png" class="clients">
+           <img src="./Img/clients/google.png" alt="google.png" class="clients">
+       </div>
+   </section>
+   <section id="ContactUs-section">
+        <h1 class="h-primary-center">Contact Us</h1>
+        <div class="contact-box">
+            <form action="backend.php">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="ENTER YOUR NAME">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="example:12345@meal.com">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone No.:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="example: +91 1234567890">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message">Enter Your Message here...</textarea>
+                </div>
+                <div class="form-group">
+                    <button class="btn" type="submit">Submit</button>
+                    <button class="btn" type="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+   </section>
+   <footer>
+       Copyright &copy:www.myOnlineMeal.com. All right reserved.
+   </footer>
+</section>
+</body>
+</html>
